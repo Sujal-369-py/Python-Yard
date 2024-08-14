@@ -1,0 +1,5 @@
+print(97 < 94)
+print(24 < 78)
+print(67 > 89)
+print(9 > 6)
+print(6 < 9)
