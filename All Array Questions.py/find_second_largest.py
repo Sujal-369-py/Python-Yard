@@ -1,4 +1,4 @@
-arr = [1,2,3]
+arr = [3,2,1]
 
 # Initialize largest and second_largest to negative infinity
 largest = float('-inf')

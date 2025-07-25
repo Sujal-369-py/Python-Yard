@@ -5,6 +5,6 @@ my_self = {
     "Acheivements" : "Many , but bigger one is Evolution in Machine Learning"
 }
 
-for key, value in my_self.items():
-    print(f"{key} : {value}")
+for key in my_self.items():
+    print(f"{key}")
 

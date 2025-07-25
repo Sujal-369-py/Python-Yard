@@ -5,4 +5,6 @@ def find_factors(num):
                 print(i)
             else:
                     print(i,end=",")
-    
+
+fac = (find_factors(12))
+print(fac)

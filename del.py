@@ -1,6 +1,10 @@
-name = input("Enter your name : ")
-roll = int(input("Enter your roll no : "))
-age = int(input("Enter your age : "))
-print("Name : ",name)
-print("Roll no : ",roll)
-print("Age : ",age)
+str = "-046" 
+new_str = " "
+for char in str:
+    if char in "123456789":
+        new_str+=char
+    elif char == "0" or char == '+'or char == '-': 
+        pass
+    else:
+        break 
+print(new_str)

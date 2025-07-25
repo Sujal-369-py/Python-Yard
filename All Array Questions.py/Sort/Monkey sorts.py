@@ -1,10 +1,14 @@
 import random
 import time
-arr = [1, 6, 9, 2, 4 ,12]
+arr = [4, 5, 3, 1, 2]
+count = 0
 
 while arr != sorted(arr):
     
     random.shuffle(arr)
     print(arr)
+    count+=1
 
 print("Finally Sorted array : ", arr)
+print("Number of time sorted : ",count)
+   
