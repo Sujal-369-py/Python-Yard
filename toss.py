@@ -1,16 +1,6 @@
-import random
-
-des = 'Bat', 'Bowl'
-toss = 'head', 'tail' 
-your_call = input("choice heads or tail : ")
-res = random.choice(toss)
-if res == your_call :
-    print("you won the toss")
-    chose = input("choce one Bat or Bawl : ")
-    if chose.lower() == "bat" :
-        print("you choose to bat")
-    else:
-        print("you choose to bowl")
-else:
-    res2 = random.choice(des)
-    print("you lose the toss and opponent choice to ",res2)
+s = "hello i am sujal" 
+res = [word for word in s.split()]
+n = len(res)//2
+for i in range(n): 
+    res[i],res[n-i-1] = res[n-i-1],res[i]
+print(res)
